@@ -60,15 +60,6 @@ export default function UpdateAlbum(props) {
           handleChange(e);
         }}
       />
-      {/* <label htmlFor='title'>userId</label> */}
-      {/* <input
-        type='text'
-        value={userId}
-        name='userId'
-        onChange={(e) => {
-          handleChange(e);
-        }}
-      /> */}
       <Button onClick={updateUser}> Submit</Button>
     </div>
   );
